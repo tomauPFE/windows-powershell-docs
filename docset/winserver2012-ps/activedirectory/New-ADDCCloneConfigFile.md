@@ -104,7 +104,7 @@ Creates a clone domain controller named Clone2 with static IPv4 and static IPv6 
 
 ### -------------------------- EXAMPLE 6 --------------------------
 ```
-PS C:\>New-ADDCCloneConfigFile -IPv4Address "10.0.0.2" -IPv4DNSResolver "10.0.0.1" -IPv4SubnetMask "255.255.255.0" -IPv4DefaultGateway "10.0.0.3" -IPv6DNSResolver "FEC0:0:0:FFFF::1"
+PS C:\>New-ADDCCloneConfigFile -IPv4Address "10.0.0.2" -IPv4DNSResolver "10.0.0.1" -IPv4SubnetMask "255.255.255.0" -IPv4DefaultGateway "10.0.0.3" -IPv6DNSResolver "FEC0:0:0:FFFF::1" -CloneComputerName "Clone2"
 ```
 
 Creates a clone domain controller named Clone2 with static IPv4 and dynamic IPv6 settings.
